@@ -24,8 +24,8 @@ url: "wm.argcv.com" # the base hostname & protocol for your site, e.g. http://ex
 github_username:  yuikns
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+#markdown: redcarpet
 theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
