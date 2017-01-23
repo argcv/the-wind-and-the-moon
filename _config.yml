@@ -18,14 +18,15 @@ email: yu@argcv.com
 description: > # this means to ignore newlines until "baseurl:"
   TODO: edit it in /_config.yml
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "wm.argcv.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: yujing5b5d
 github_username:  yuikns
 
 # Build settings
-markdown: kramdown
-theme: minima
+# markdown: kramdown
+markdown: redcarpet
+theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
 exclude:
